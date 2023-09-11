@@ -1,0 +1,51 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  top: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.bagian {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.biru {
+  background-color: #3498db;
+}
+.kuning {
+  background-color: #f39c12;
+}
+.hijau {
+  background-color: #2ecc71;
+}
